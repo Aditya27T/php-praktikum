@@ -1,11 +1,19 @@
 <?php
 
-$data  = array("Teknik Inggris (TI)", "Sastra Mesin (SM)", "Pendidikan dasar Informatika (PDI)");
-
-
-if (isset($_POST['Input'])) {
-    $selected_option = $_POST['flexRadioDefault'];
-    echo "Anda telah memilih: " . $data[$selected_option];
-} else {
-    echo "Anda belum memilih apapun.";
+function getJurusan()
+{
+    return [
+        'Teknik Informatika',
+        'Sistem Informasi',
+        'Teknik Komputer',
+        'Manajemen Informatika',
+    ];
 }
+
+if (isset($_POST['jurusan'])) {
+    echo "Jurusan yang dipilih adalah " . $_POST['jurusan'];
+    echo "<br>";
+    echo "<a href='./index.php'>Kembali</a>";
+}
+
+?>
