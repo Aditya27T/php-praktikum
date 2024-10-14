@@ -23,8 +23,8 @@
                                 Box
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="./CheckBox/index.php">Combobox</a></li>
-                                <li><a class="dropdown-item" href="./DropDown/index.php">DropDown</a></li>
+                                <li><a class="dropdown-item" href="../CheckBox/index.php">Combobox</a></li>
+                                <li><a class="dropdown-item" href="../DropDown/index.php">DropDown</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -32,12 +32,12 @@
                                 Text Input
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="./Text/index.php">Text</a></li>
-                                <li><a class="dropdown-item" href="./Password/index.php">Password</a></li>
+                                <li><a class="dropdown-item" href="../Text/index.php">Text</a></li>
+                                <li><a class="dropdown-item" href="../Password/index.php">Password</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./Radio/index.php">Radio</a>
+                            <a class="nav-link" href="../Radio/index.php">Radio</a>
                         </li>
                    </ul>
                 </div>
